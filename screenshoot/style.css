@@ -147,7 +147,6 @@ body {
   border-radius: 0.5rem;
   box-shadow: 1px 1px 3px rgba(1, 1, 3, 0.5);
 }
-
 /* About Section */
 .about,
 .menu,
@@ -193,6 +192,36 @@ body {
   line-height: 1.6;
 }
 
+/* Menu Section */
+.menu h2,
+.contact h2 {
+  margin-bottom: 1rem;
+}
+.menu p,
+.contact p {
+  text-align: center;
+  max-width: 30rem;
+  margin: auto;
+  font-weight: 100;
+  line-height: 1.6;
+}
+.menu .row {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 5rem;
+  justify-content: center;
+}
+.menu .row .menu-card {
+  text-align: center;
+  padding-bottom: 4rem;
+}
+.menu .row .menu-card img {
+  border-radius: 50%;
+  width: 80%;
+}
+.menu .row .menu-card title {
+  margin-top: 1rem auto 0.5rem;
+}
 
 /* Media Queries */
 
@@ -264,6 +293,12 @@ body {
   .about .row .content p {
     font-size: 1.6rem;
   }
+
+  .menu p {
+    font-size: 1.2rem;
+  }
+
+
 
 /* Mobile Phone */
 @media (max-width: 450px) {
